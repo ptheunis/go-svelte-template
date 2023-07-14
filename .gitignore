@@ -1,0 +1,15 @@
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.zcompdump
+
+# Binaries
+go-svelte.exe
+go-svelte

@@ -1,0 +1,36 @@
+{
+  "name": "ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "@tsconfig/svelte": "^5.0.0",
+    "svelte": "^4.0.3",
+    "svelte-check": "^3.4.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.5",
+    "@fontsource/manrope": "^5.0.5",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "lucide-svelte": "^0.260.0",
+    "open-props": "^1.5.10",
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^2.10.1"
+  }
+}
