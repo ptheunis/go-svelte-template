@@ -1,6 +1,6 @@
-# Svelte + TS + Vite + GO
+# Minimal Svelte + TS + Vite + GO
 
-This template should help get you started developing with Svelte and TypeScript in Vite & GO as a the backing server.
+This `minimal` template should help get you started developing with `Svelte` and `TypeScript` in `Vite` & `GO` as the backing server.
 
 ## Development
 
